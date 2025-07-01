@@ -19,7 +19,7 @@
       box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
       line-height: 1.7;
     }
-    h1, h2 {
+    h1, h2, h3 {
       color: #2c3e50;
     }
     h1 {
@@ -31,7 +31,7 @@
       padding-left: 0;
     }
     li {
-      margin: 10px 0;
+      margin: 8px 0;
       font-size: 1.15em;
     }
     a {
@@ -51,12 +51,25 @@
       color: #555;
       margin-left: 5px;
     }
-    a.back-link {
+    .back-link {
       display: block;
       margin-top: 40px;
       text-align: center;
       font-size: 1em;
       color: #2c3e50;
+    }
+    .course-entry {
+      margin-bottom: 1rem;
+    }
+    .course-title {
+      font-weight: bold;
+      color: #34495e;
+    }
+    .course-details {
+      font-style: italic;
+      color: #555;
+      margin-left: 1rem;
+      margin-top: 0.2rem;
     }
   </style>
 </head>
@@ -64,19 +77,103 @@
 
   <h1><i class="fa-solid fa-chalkboard-user icon"></i>Teaching</h1>
 
-  <h2>Courses</h2>
-  <ul>
-    <li>C2I<span class="abbreviation">(Computer and Internet Certificate)</span></li>
-    <li>Network Services</li>
-    <li>Local Networks and Interconnection</li>
-    <li>Network Fundamentals</li>
-	<li>CISCO Certification CCNA1</li>
-    <li>CISCO Certification CCNA2</li>
-    <li>Network Virtualization</li>
-    <li>IP Networks</li>
-    <li>Systems and Network Administration</li>
-    <li>Multimedia Network</li>
-  </ul>
+  <h2>Courses by Academic Year</h2>
+
+  <section>
+    <h3>2024-2025</h3>
+    <div class="course-entry">
+      <div class="course-title">LAN VLAN</div>
+      <div class="course-details">IMT Nord Europe — Continuing Education (Orange employees)</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">SNMP</div>
+      <div class="course-details">IMT Nord Europe — Continuing Education (Orange employees)</div>
+    </div>
+  </section>
+
+  <section>
+    <h3>2022-2023</h3>
+    <div class="course-entry">
+      <div class="course-title">IP Networks</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Services</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Software Engineering and Information Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Systems and Network Administration</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Software Engineering and Information Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Multimedia Networks</div>
+      <div class="course-details">FSG Tunisia — 3rd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Virtualization</div>
+      <div class="course-details">FSG Tunisia — 3rd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">CISCO CCNA2 Certification</div>
+      <div class="course-details">FSG Tunisia — Professional Master in Network and Systems Security</div>
+    </div>
+  </section>
+
+  <section>
+    <h3>2021-2022</h3>
+    <div class="course-entry">
+      <div class="course-title">C2I <span class="abbreviation">(Computer and Internet Certificate)</span></div>
+      <div class="course-details">FSG Tunisia — 1st Year Bachelor</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Services</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Software Engineering and Information Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">IP Networks</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Virtualization</div>
+      <div class="course-details">FSG Tunisia — 3rd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">CISCO CCNA2 Certification</div>
+      <div class="course-details">FSG Tunisia — Professional Master in Network and Systems Security</div>
+    </div>
+  </section>
+
+  <section>
+    <h3>2020-2021</h3>
+    <div class="course-entry">
+      <div class="course-title">C2I <span class="abbreviation">(Computer and Internet Certificate)</span></div>
+      <div class="course-details">FSG Tunisia — 1st Year Bachelor</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Fundamentals</div>
+      <div class="course-details">FSG Tunisia — 1st Year Bachelor in Software Engineering and Information Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Network Services</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Software Engineering and Information Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">CISCO CCNA1 Certification</div>
+      <div class="course-details">FSG Tunisia — 2nd Year Bachelor in Network Engineering and Systems</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Local Networks and Interconnection</div>
+      <div class="course-details">FSG Tunisia — 3rd Year Bachelor in Fundamental Computer Science</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Networks II</div>
+      <div class="course-details">FSG Tunisia — 3rd Year Bachelor in Applied Network Computing</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">CISCO CCNA2 Certification</div>
+      <div class="course-details">FSG Tunisia — Professional Master in Network and Systems Security</div>
+    </div>
+  </section>
 
   <a class="back-link" href="index.html">&larr; Back to Home</a>
 
